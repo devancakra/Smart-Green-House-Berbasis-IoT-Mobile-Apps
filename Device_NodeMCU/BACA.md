@@ -1,0 +1,17 @@
+## Device-2: NodeMCU
+
+<b>Source code ini dibuat untuk keperluan :</b>
+
+1. Pengambilan keputusan terhadap data sensor.
+2. Pengiriman data sensor ke IoT Platform Antares.
+   <br/><br/>
+
+<b>Parameter yang dikelola oleh Device-2 ini meliputi :</b>
+
+1. Status Pintu.
+2. Alarm Keamanan.
+   <br/><br/>
+
+## Status Pengerjaan
+
+Dalam proses development, mohon bersabar ya :)
