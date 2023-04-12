@@ -11,4 +11,4 @@ Final Project Edspert.id: Intensive Bootcamp Internet of Things Batch-10
 <br/><br/>
 
 ## Wiring Device-2: NodeMCU
-Coming Soon...
+![Wiring_Device_2](https://user-images.githubusercontent.com/54527592/231444480-ca236020-b408-4ae7-b52a-49944632ac2b.jpg)
