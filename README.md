@@ -1,3 +1,11 @@
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Smart-Green-House-Berbasis-IoT-Mobile-Apps)
+![Project](https://img.shields.io/badge/Project-Mobile%20of%20Things-light.svg?style=flat&logo=github&logoColor=white&color=bcbcbc)
+![MobileApps](https://img.shields.io/badge/Mobile%20Apps-MIT-%2DApp-%2DInventor-light.svg?style=flat&logo=android&logoColor=white&color=bcbcbc)
+![Antares](https://img.shields.io/badge/Platform%20IoT-Antares-light.svg?style=flat&logo=googlechrome&logoColor=white&color=bcbcbc)
+![ArduinoIDE](https://img.shields.io/badge/Tools-Arduino%20IDE-light.svg?style=flat&logo=arduino&logoColor=white&color=bcbcbc)
+
 # Smart-Green-House-Berbasis-IoT-Mobile-Apps
 Final Project Edspert.id: Intensive Bootcamp Internet of Things Batch-10
 <br/><br/>
@@ -11,4 +19,4 @@ Final Project Edspert.id: Intensive Bootcamp Internet of Things Batch-10
 <br/><br/>
 
 ## Wiring Device-2: NodeMCU
-![Wiring_Device_2](https://user-images.githubusercontent.com/54527592/231444480-ca236020-b408-4ae7-b52a-49944632ac2b.jpg)
+![Wiring_Device_2](https://user-images.githubusercontent.com/54527592/231447255-def7baed-f2c2-41b3-afac-0a0e44647616.jpg)
