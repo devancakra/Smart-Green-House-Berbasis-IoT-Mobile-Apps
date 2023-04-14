@@ -69,7 +69,7 @@ void bacaSensor() {
 void Threshold(){
   if (temp >= 0 && temp < 16) {
     if (hum > 90) {
-      if (ldr >= 0 && ldr < 50) {  
+      if (ldr >= 500) {  
         digitalWrite(PIN_WATERPUMP, relayOFF);
         pump = "OFF";
       }
@@ -77,14 +77,14 @@ void Threshold(){
   }
   if (temp >= 16 && temp <= 34) {
     if (hum >= 30 && hum <= 90) {
-      if (ldr >= 50 && ldr < 50000) {  
+      if (ldr >= 200 && ldr < 500) {  
         digitalWrite(PIN_WATERPUMP, relayOFF);
         pump = "OFF";
       }
     }
   }
   if (temp > 34 && temp < 30) {
-    if (ldr >= 50000 && ldr <= 100000) {
+    if (ldr < 200) {
       digitalWrite(PIN_WATERPUMP, relayON);
       pump = "ON";
     }
