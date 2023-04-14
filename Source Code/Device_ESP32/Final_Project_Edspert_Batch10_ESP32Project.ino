@@ -68,7 +68,7 @@ void bacaSensor() {
 // Kendali Otomatis Pompa
 void Threshold(){
   if (temp >= 0 && temp < 16) {
-    if (hum > 90) {
+    if (hum > 90 && hum <=100) {
       if (ldr >= 500) {  
         digitalWrite(PIN_WATERPUMP, relayOFF);
         pump = "OFF";
@@ -83,10 +83,12 @@ void Threshold(){
       }
     }
   }
-  if (temp > 34 && temp < 30) {
-    if (ldr < 200) {
-      digitalWrite(PIN_WATERPUMP, relayON);
-      pump = "ON";
+  if (temp > 34 && temp <= 100) {
+    if (hum >= 0 && hum < 30) {
+      if (ldr < 200) {
+        digitalWrite(PIN_WATERPUMP, relayON);
+        pump = "ON";
+      }
     }
   } 
   if (moisture >= 14.5 && moisture < 100){
