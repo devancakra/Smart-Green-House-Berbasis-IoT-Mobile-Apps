@@ -157,3 +157,6 @@ void setup(){
 void loop(){
   kirimDataAntares();
 }
+
+// Nama Final Project : Smart Green House (Device-2: NodeMCU)
+// Nama Peserta Edspert.id : Devan Cakra Mudra Wijaya, S.Kom.
