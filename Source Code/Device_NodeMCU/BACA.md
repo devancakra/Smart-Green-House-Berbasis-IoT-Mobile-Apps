@@ -8,5 +8,5 @@
 
 <b>Parameter yang dikelola oleh Device-2 ini meliputi :</b>
 
-1. Status Pintu.
-2. Status Keamanan.
+1. Alarm Keamanan.
+2. Status Pintu.
