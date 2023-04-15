@@ -31,6 +31,7 @@ Final Project Edspert.id: Intensive Bootcamp Internet of Things Batch-10
   <img src="https://user-images.githubusercontent.com/54527592/232251195-d4f50edf-a28d-460a-9eb1-33799043839d.jpg">
   <img src="https://user-images.githubusercontent.com/54527592/232251212-36116b22-bd09-4175-8486-56c95c4b8248.JPG">
   <img src="https://user-images.githubusercontent.com/54527592/232251222-20715a66-d40c-4a30-a394-acbc06f5b3dd.JPG">
+  <img src="https://user-images.githubusercontent.com/54527592/232252573-7c077c34-aa70-4142-8dac-91bb84e8a908.jpg">
   <tr>
     <td><img src="https://user-images.githubusercontent.com/54527592/232251409-d26bd803-914e-40b1-8ed7-63053c5bfb14.png"></td>
     <td><img src="https://user-images.githubusercontent.com/54527592/232251424-6beb90f9-8518-4426-b089-0cb01cd8488d.png"></td>
