@@ -37,4 +37,13 @@ Final Project Edspert.id: Intensive Bootcamp Internet of Things Batch-10
     <td><img src="https://user-images.githubusercontent.com/54527592/232251424-6beb90f9-8518-4426-b089-0cb01cd8488d.png"></td>
   </tr>
 </table>
-<br/><br/>
+<br><br>
+
+## LISENSI
+MIT License - Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom
+
+Izin dengan ini diberikan tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk ditangani tanpa adanya batasan, termasuk tanpa batasan hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak, dan untuk mengizinkan orang yang menerima Perangkat Lunak tersebut diperlengkapi untuk itu dengan syarat-syarat sebagai berikut:
+
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan semua salinannya atau bagian substansial dari Perangkat Lunak.
+
+DALAM HAL APAPUN, PENULIS ATAU PEMEGANG HAK CIPTA DISINI MEMILIKI HAK KEPEMILIKAN PENUH. PERANGKAT LUNAK INI DISEDIAKAN SEBAGAIMANA ADANYA, TANPA ADA JAMINAN APAPUN, BAIK TERSURAT MAUPUN TERSIRAT, OLEH KARENA ITU APABILA DITEMUI KERUSAKAN, KERUGIAN, ATAU LAINNYA YANG DITIMBULKAN DARI PENGGUNAAN ATAU URUSAN LAIN DALAM PERANGKAT LUNAK INI, MAKA PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERHAK BERTANGGUNGJAWAB, SEBAB DARI AWAL PENGGUNAAN PERANGKAT LUNAK INI TIDAK DIPAKSAKAN SAMA SEKALI, JADI RESIKO DITANGGUNG SENDIRI.
