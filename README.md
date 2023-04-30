@@ -30,6 +30,8 @@ Final Project Edspert.id: Intensive Bootcamp Internet of Things Batch-10
 <table border="0">
   <img src="https://user-images.githubusercontent.com/54527592/232251195-d4f50edf-a28d-460a-9eb1-33799043839d.jpg">
   <img src="https://user-images.githubusercontent.com/54527592/232251212-36116b22-bd09-4175-8486-56c95c4b8248.JPG">
+  <img src="https://user-images.githubusercontent.com/54527592/235334045-e5839ed9-0137-468d-a2a7-d90ad109b88c.jpeg">
+  <img src="https://user-images.githubusercontent.com/54527592/235334074-3574bafd-0e65-4c46-a4e7-5cddbca1bda1.jpeg">
   <img src="https://user-images.githubusercontent.com/54527592/232251222-20715a66-d40c-4a30-a394-acbc06f5b3dd.JPG">
   <img src="https://user-images.githubusercontent.com/54527592/232272666-cb4af93c-1252-40f2-9e43-bcfa3bb8a0e0.jpg">
   <tr>
@@ -40,10 +42,12 @@ Final Project Edspert.id: Intensive Bootcamp Internet of Things Batch-10
 <br><br>
 
 ## LISENSI
-MIT License - Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom
+Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom
 
 Izin dengan ini diberikan tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk ditangani tanpa adanya batasan, termasuk tanpa batasan hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak, dan untuk mengizinkan orang yang menerima Perangkat Lunak tersebut diperlengkapi untuk itu dengan syarat-syarat sebagai berikut:
 
-Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan semua salinannya atau bagian substansial dari Perangkat Lunak.
+1. Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan semua salinannya atau bagian substansial dari Perangkat Lunak.
 
-DALAM HAL APAPUN, PENULIS ATAU PEMEGANG HAK CIPTA DISINI MEMILIKI HAK KEPEMILIKAN PENUH. PERANGKAT LUNAK INI DISEDIAKAN SEBAGAIMANA ADANYA, TANPA ADA JAMINAN APAPUN, BAIK TERSURAT MAUPUN TERSIRAT, OLEH KARENA ITU APABILA DITEMUI KERUSAKAN, KERUGIAN, ATAU LAINNYA YANG DITIMBULKAN DARI PENGGUNAAN ATAU URUSAN LAIN DALAM PERANGKAT LUNAK INI, MAKA PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERHAK BERTANGGUNGJAWAB, SEBAB DARI AWAL PENGGUNAAN PERANGKAT LUNAK INI TIDAK DIPAKSAKAN SAMA SEKALI, JADI RESIKO DITANGGUNG SENDIRI.
+2. Jika kreasi produk ini dirasa bermanfaat bagi anda mohon dukungannya dengan cara menekan tombol "Star", dan jika anda ingin mengembangkan produk ini lebih lanjut, maka silahkan anda dapat menekan tombol "Fork". Mohon dapatnya hargai PENULIS ATAU PEMEGANG HAK CIPTA dengan tidak melakukan re-upload. Terima kasih.
+
+3. PENULIS ATAU PEMEGANG HAK CIPTA DISINI MEMILIKI HAK KEPEMILIKAN PENUH ATAS KREASI PRODUK YANG DIBUAT, KECUALI YANG TERTERA DI DAFTAR PUSTAKA DAN ATAU KARYA PIHAK LAIN YANG DILUAR KREASI PRODUK INI. APABILA DITEMUI KERUSAKAN, KERUGIAN, ATAU LAINNYA YANG DITIMBULKAN DARI PENGGUNAAN PERANGKAT LUNAK INI, MAKA PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERHAK BERTANGGUNGJAWAB, SEBAB PERANGKAT LUNAK INI TELAH DISEDIAKAN SEBAGAIMANA ADANYA, TANPA ADA JAMINAN APAPUN BAIK TERSURAT MAUPUN TERSIRAT, DAN TANPA ADANYA PAKSAKAN SEKALI PUN.
