@@ -77,24 +77,24 @@ void bacaSensorRFID(){
     printHex(rfid.uid.uidByte, rfid.uid.size);
     if(accessCode.substring(1) == UID_RFID1){
       Serial.print("\nPesan RFID : "); Serial.println("Akses Buka Pintu Green House Berhasil"); doorstate = "Open"; 
-      Display_LCD("Stt.Pintu:"+String(doorstate)); Serial.println("Status Pintu: "+doorstate); 
-      digitalWrite(RSOLENOID_DOORLOCK_PIN, HIGH); delay(1000);
+      responRFID(); // Respon RFID ditampilkan ke LCD
+      digitalWrite(RSOLENOID_DOORLOCK_PIN, LOW); delay(1000); // Solenoid door lock: open
     }
     else if(accessCode.substring(1) == UID_RFID2){
       Serial.print("\nPesan RFID : "); Serial.println("Akses Tutup Pintu Green House Berhasil"); doorstate = "Closed"; 
-      Display_LCD("Stt.Pintu:"+String(doorstate)); Serial.println("Status Pintu: "+doorstate); 
-      digitalWrite(RSOLENOID_DOORLOCK_PIN, LOW); delay(1000);
+      responRFID(); // Respon RFID ditampilkan ke LCD
+      digitalWrite(RSOLENOID_DOORLOCK_PIN, HIGH); delay(1000); // Solenoid door lock: closed
     }  
     else{
       Serial.print("\nPesan RFID : "); Serial.println("Akses Green House Gagal/UID Belum Terdaftar"); doorstate = "Closed"; 
-      Display_LCD("Stt.Pintu:"+String(doorstate)); Serial.println("Status Pintu: "+doorstate); 
-      digitalWrite(RSOLENOID_DOORLOCK_PIN, LOW); delay(1000);
+      responRFID(); // Respon RFID ditampilkan ke LCD
+      digitalWrite(RSOLENOID_DOORLOCK_PIN, HIGH); delay(1000); // Solenoid door lock: closed
     }
   }
   else {
     Serial.print("\nPesan RFID : "); Serial.println("Akses Green House Steril\n"); doorstate = "Closed"; 
-    Display_LCD("Stt.Pintu:"+String(doorstate)); Serial.println("Status Pintu: "+doorstate); 
-    digitalWrite(RSOLENOID_DOORLOCK_PIN, LOW); delay(1000);
+    responRFID(); // Respon RFID ditampilkan ke LCD
+    digitalWrite(RSOLENOID_DOORLOCK_PIN, HIGH); delay(1000); // Solenoid door lock: closed
   }
 }
 void printHex(byte *buffer, byte bufferSize) {
@@ -124,12 +124,12 @@ void bacaSensorSW420(){
 void LCDinit(){
   lcd.init(); // Memulai LCD
   lcd.backlight(); delay(250); lcd.noBacklight(); delay(250); lcd.backlight(); // Splash Screen
-  lcd.setCursor(0,0); lcd.print("Smart GreenHouse"); lcd.setCursor(4,1); lcd.print("Device-2");delay(3000); // Menampilkan data pada LCD
+  lcd.setCursor(0,0); lcd.print("Smart GreenHouse"); lcd.setCursor(4,1); lcd.print("Device-2");delay(10000); // Menampilkan data pada LCD
   lcd.clear(); // Menghapus penampilan data pada LCD 
 }
-void Display_LCD(String responRFID){
-  lcd.setCursor(0,0); lcd.print("INFO -----------");
-  lcd.setCursor(0,1); lcd.print(responRFID); // Cetak respon RFID di baris 1, kolom 0
+void responRFID(){
+  lcd.backlight(); lcd.setCursor(0,0); lcd.print("INFO -----------"); lcd.setCursor(0,1); lcd.print("Stt.Pintu:"+String(doorstate)); // Cetak respon RFID pada LCD
+  Serial.println("Status Pintu: "+doorstate); // Cetak respon RFID pada serial monitor
 }
 
 // Method untuk mengolah nilai sensor dan mengatur otomatisasi aktuator
@@ -168,14 +168,13 @@ void kirimDataAntares(){
   delay(5000);
 }
 
-// Method untuk mengatur inisiasi awal
 void setup() {
   Serial.begin(115200); // Baudrate
   pinMode(SW420_PIN,INPUT); // Inisialisasi pin sw-420 sebagai INPUT
   pinMode(BUZZER_PIN,OUTPUT); // Inisialisasi pin buzzer sebagai OUTPUT
   digitalWrite(BUZZER_PIN, LOW); // Default buzzer: OFF
   pinMode(RSOLENOID_DOORLOCK_PIN,OUTPUT); // Inisialisasi pin solenoid door lock sebagai OUTPUT
-  digitalWrite(RSOLENOID_DOORLOCK_PIN, LOW); // Default solenoid door lock: OFF (Mengunci)
+  digitalWrite(RSOLENOID_DOORLOCK_PIN, HIGH); // Default solenoid door lock: OFF (Mengunci)
   ConnectToWiFi(); // Memanggil method ConnectToWiFi
   LCDinit(); // Memanggil method LCDinit
   initSensorRFID(); // Memanggil method initSensorRFID
@@ -188,3 +187,5 @@ void loop(){
 
 // Nama Final Project : Smart Green House (Device-2: NodeMCU)
 // Nama Peserta Edspert.id : Devan Cakra Mudra Wijaya, S.Kom.
+
+// **CATATAN: ADA SEDIKIT BUG DI BAGIAN PEMBACAAN RFID** // **MASIH BELUM TERATASI**
